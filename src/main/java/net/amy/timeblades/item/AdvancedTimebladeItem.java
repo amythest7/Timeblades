@@ -14,10 +14,10 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.ClickType;
 import net.minecraft.util.Hand;
 
-public class TimebladeItem extends SwordItem {
+public class AdvancedTimebladeItem extends SwordItem {
 
 
-    public TimebladeItem(ToolMaterial toolMaterial, Settings settings, RegistryEntry<StatusEffect> effect) {
+    public AdvancedTimebladeItem(ToolMaterial toolMaterial, Settings settings, RegistryEntry<StatusEffect> effect1, RegistryEntry<StatusEffect> effect2) {
         super(toolMaterial, settings);
     }
 
@@ -26,4 +26,8 @@ public class TimebladeItem extends SwordItem {
         return super.useOnEntity(stack, user, entity, hand);
     }
 
+    @Override
+    public boolean onClicked(ItemStack stack, ItemStack otherStack, Slot slot, ClickType clickType, PlayerEntity player, StackReference cursorStackReference) {
+        return super.onClicked(stack, otherStack, slot, clickType, player, cursorStackReference);
+    }
 }
