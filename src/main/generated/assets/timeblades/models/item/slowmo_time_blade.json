@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "timeblades:item/slowmo_time_blade"
+  }
+}

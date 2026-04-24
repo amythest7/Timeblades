@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "timeblades",
+	"version": "${version}",
+	"name": "Timeblades",
+	"description": "Adds Ninjago's Time Blades",
+	"authors": [
+		"Amythest"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/timeblades/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.amy.timeblades.Timeblades"
+		],
+		"Client": [
+			"net.amy.timeblades.TimebladesClient"
+		],
+		"fabric-datagen": [
+			"net.amy.timeblades.TimebladesDataGenerator"
+		]
+	},
+	"mixins": [
+		"timeblades.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
