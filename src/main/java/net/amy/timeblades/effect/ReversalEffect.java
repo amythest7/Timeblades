@@ -12,9 +12,7 @@ public class ReversalEffect extends StatusEffect {
 
     @Override
     public boolean applyUpdateEffect(LivingEntity entity, int amplifier) {
-        if (entity.getHealth() > 1.0F) {
             entity.damage(entity.getDamageSources().magic(), 1.0F);
-        }
 
         return true;
     }

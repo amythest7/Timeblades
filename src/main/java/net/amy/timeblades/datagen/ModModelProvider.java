@@ -33,5 +33,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.KRUX_TIME_BLADE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.COMPLETE_TIME_BLADE, Models.HANDHELD);
 
+        itemModelGenerator.register(ModItems.WILLS_HEARTFELT_WORDS_TO_CAI, Models.GENERATED);
+
+
     }
 }

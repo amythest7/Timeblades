@@ -14,10 +14,11 @@ import net.minecraft.util.Identifier;
 public class ModEffects {
 
     public static final RegistryEntry<StatusEffect> REVERSAL = registerStatusEffect("reversal",
-            new ReversalEffect(StatusEffectCategory.HARMFUL, 0xbf84d9)
+            new ReversalEffect(StatusEffectCategory.HARMFUL, 0xfff300)
                     .addAttributeModifier(EntityAttributes.GENERIC_OXYGEN_BONUS,
                     Identifier.of(Timeblades.MOD_ID, "reversal"), -1.0f,
             EntityAttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
+
 
 
     private static RegistryEntry<StatusEffect> registerStatusEffect(String name, StatusEffect statusEffect) {

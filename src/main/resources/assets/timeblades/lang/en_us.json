@@ -1,0 +1,26 @@
+{
+  "item.timeblades.chronosteel_ingot": "Chronosteel Ingot",
+
+  "item.timeblades.pause_time_blade": "Pause Time Blade",
+  "item.timeblades.slowmo_time_blade": "Slow-Mo Time Blade",
+  "item.timeblades.reversal_time_blade": "Reversal Time Blade",
+  "item.timeblades.forward_time_blade": "Forward Time Blade",
+  "item.timeblades.blank_time_blade": "Blank Time Blade",
+  "item.timeblades.acronix_time_blade": "Acronix's Time Blade",
+  "item.timeblades.krux_time_blade": "Krux's Time Blade",
+  "item.timeblades.complete_time_blade": "Complete Time Blade",
+  "item.timeblades.wills_heartfelt_words_to_cai": "Will's Heartfelt Words To Cai",
+
+  "itemgroup.timeblades.time_blades_items": "Time Blades",
+  "effect.timeblades.reversal": "Reversal",
+
+
+  "tooltip.timeblades.pause_time_blade.tooltip": "Applies: §cSlowness §fto the target on Right click",
+  "tooltip.timeblades.forward_time_blade.tooltip": "Applies: §aHunger§f §fto the target on Right click",
+  "tooltip.timeblades.slowmo_time_blade.tooltip": "Applies: §bMining Fatigue §fto the target on Right click",
+  "tooltip.timeblades.reversal_time_blade.tooltip": "Applies: §eReversal §fto the target on Right click",
+  "tooltip.timeblades.acronix_time_blade.tooltip": "Applies: §aHunger §fand §bMining Fatigue §fto the target on Right click",
+  "tooltip.timeblades.krux_time_blade.tooltip":"Applies: §cSlowness §fand §eReversal §fto the target on Right click",
+  "tooltip.timeblades.complete_time_blade.tooltip": "Applies: §cSlowness§f, §aHunger§f, §bMining Fatigue §fand §eReversal §fto the target on Right click",
+  "tooltip.timeblades.wills_heartfelt_words_to_cai.tooltip": "cai after so many encounter and practice matches to practice my pvp skills i have come to the conclusion that the mace is increadibly gay and the most irriating thing in the whole wide world(jjk mod not included)"
+}

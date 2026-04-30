@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "timeblades:chronosteel_ingot"
+  },
+  "base": {
+    "item": "timeblades:acronix_time_blade"
+  },
+  "result": {
+    "count": 1,
+    "id": "timeblades:complete_time_blade"
+  },
+  "template": {
+    "item": "timeblades:krux_time_blade"
+  }
+}

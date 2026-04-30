@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "timeblades:item/wills_heartfelt_words_to_cai"
+  }
+}

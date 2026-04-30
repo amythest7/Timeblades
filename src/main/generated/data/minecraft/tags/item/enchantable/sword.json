@@ -1,0 +1,12 @@
+{
+  "values": [
+    "timeblades:blank_time_blade",
+    "timeblades:pause_time_blade",
+    "timeblades:slowmo_time_blade",
+    "timeblades:reversal_time_blade",
+    "timeblades:forward_time_blade",
+    "timeblades:acronix_time_blade",
+    "timeblades:krux_time_blade",
+    "timeblades:complete_time_blade"
+  ]
+}

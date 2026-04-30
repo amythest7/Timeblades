@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chronosteel_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "timeblades:chronosteel_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "timeblades:complete_time_blade_smithing"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_chronosteel_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "timeblades:complete_time_blade_smithing"
+    ]
+  }
+}

@@ -1,6 +1,10 @@
 package net.amy.timeblades;
 
+import net.amy.timeblades.effect.ModEffects;
+import net.amy.timeblades.item.ModItemGroups;
 import net.amy.timeblades.item.ModItems;
+import net.amy.timeblades.particle.ModParticles;
+import net.amy.timeblades.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -16,5 +20,9 @@ public class Timeblades implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModEffects.registerEffects();
+		ModParticles.registerParticles();
+		ModItemGroups.registerItemGroups();
+		ModLootTableModifiers.modifyLootTables();
 	}
 }
